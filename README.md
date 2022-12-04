@@ -1,24 +1,35 @@
-# README
+# README #
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Code Challenge: Superheroes
 
-Things you may want to cover:
+**Description**
 
-* Ruby version
+This is a simple API built using Rails that implements associations between Heroes and their Powers.
 
-* System dependencies
+**Features**
 
-* Configuration
+Three DB tables
 
-* Database creation
+Built-in validations
 
-* Database initialization
+Advanced query methods with appropriate built-in methods.
 
-* How to run the test suite
+Routing follows REST naming conventions. 
 
-* Services (job queues, cache servers, search engines, etc.)
+Controller actions respect MVC separation of concerns.
 
-* Deployment instructions
+**Installation Process**
 
-* ...
+This repository has all the starter code needed to get the API up and running. Fork and clone this repository to get started. Then, run $ *bundle install*  to install the gems.
+
+Important: Be sure you fork a copy of the repo into your GitHub account before cloning it. You can do this by using the link above or by clicking the "Octocat" button at the top of this page, then clicking "Fork" in the upper right corner of the repo page.
+
+
+You can start your server with $ *rails server*  
+
+This will run your server on port  http://localhost:3000 .
+
+Then run the following to run the migrations and seed the DB:
+
+$ rails db:migrate db:seed
+
